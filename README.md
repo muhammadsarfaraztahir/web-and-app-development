@@ -1,4 +1,4 @@
-<h1 align='center'>Web & Mobile App Development</h1>
+<h1 align='center'>Modern Web & App Development</h1>
 
 <img src='./imgs/banner.png'/>
 
@@ -7,20 +7,25 @@
 ## Module 1: Web Designing
 |                |                     |
 | -------------- | ------------------- |
-| Pre-requisites | Matriculation       |
-| Duration       | 2 Months - 48 Hours |
+| Pre-requisites | Matric & Computer Familiarity   |
+| Duration       | 2.5 Months          |
 | Quizzes        | 1. HTML5            |
 |                | 2. CSS3             |
 | Hackathon      | After completion    |
 
 ### Topics
 
+- Internet
+  - How Does The Internet Work
+  - What is HTTP?
+  - Domain Name
+  - Hosting
+  - DNS
+  - Browsers
 - HTML5
   - [Book](https://github.com/ghousahmed/Books/blob/master/Wiley.HTML.and.CSS.Oct.2011.pdf)
 - CSS3
   - [Book](https://github.com/ghousahmed/Books/blob/master/Wiley.HTML.and.CSS.Oct.2011.pdf)
-- CSS Variables
-  - [W3schools](https://www.w3schools.com/css/css3_variables.asp)
 - CSS Animations
   - [Animate.style](https://animate.style/)
 - Media queries
@@ -33,6 +38,12 @@
   - [Bootstrap](https://getbootstrap.com/)
 - Google Fonts
   - [Google Fonts](https://getbootstrap.com/)
+- Figma
+  - Plugins
+  - Developer Mode
+  - Pixel Perfect UI
+  - Explore if there are any AI tools
+- [Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
 - Netlify Hosting
   - [Netlify](https://app.netlify.com/drop)
 - Git & Github Basics
@@ -45,11 +56,11 @@
 |               |                           |
 | ------------- | ------------------------- |
 | Pre-requisite | Module 1                  |
-| Duration      | 4 Months – 96 Hours       |
-| Quizzes       | 1. JS1 (Chapter 1 to 20)  |
-|               | 2. JS2 (Chapter 21 to 40) |
-|               | 3. JS3 (Chapter 41 to 60) |
-|               | 4. JS4 (Chapter 61 to 89) |
+| Duration      | 4.5 Months                |
+| Quizzes       | 1. JS1 (Chapters 1 to 20)  |
+|               | 2. JS2 (Chapters 21 to 40) |
+|               | 3. JS3 (Chapters 41 to 60) |
+|               | 4. JS4 (Chapters 61 to 89) |
 |               | 5. TypeScript             |
 |               | 6. Git                    |
 | Hackathon     | After completion          |
@@ -57,8 +68,9 @@
 ### Topics
 
 - JavaScript
-  - [Book](https://github.com/ghousahmed/Books/blob/master/ASmarterWaytoLearnJavaScript.pdf)
+  - [Docs](https://javascript.info/)
   - [Assignments](https://github.com/ghousahmed/javascript-exercises)
+  - Fetch API/ AJAX
 - Advanced Javascript (All ES Versions)
   - Variable Scoping
   - Closure
@@ -99,54 +111,62 @@
   - Merge
   - Rebase
   - Cherry Pick
-- Firebase
+- GSAP Animations 
+- Supabase
   - Authentication
     - Email
-    - Phone
     - Google
-  - Firestore
+  - Database
   - Storage
-- PWA (Progressive Web Applications)
-  - [Builder](https://www.pwabuilder.com/)
+- Certifications
+  - [JavaScript by Jetbrain](https://hyperskill.org/courses/32)
 
 ## Module 3: Modern Front-End Development
 
 |               |                          |
 | ------------- | ------------------------ |
 | Prerequisites | Module 1, 2              |
-| Duration      | 3 Months – 72 Hours      |
+| Duration      | 3 Months                 |
 | Quizzes       | 1. ReactJS               |
-|               | 2. NextJS + React Native |
 | Hackathon     | After completion         |
 
 ### Topics
-
-- ReactJS (CRA, Vite)
+- Node runtime
+- Package Managers
+  - NPM
+  - Yarn
+- ReactJS V19
   - [CRA](https://create-react-app.dev/)
   - [Vite](https://vitejs.dev/)
-  - React Icons
-  - React Router DOM
+  - Linters & Formatters
+  - Module Bundlers
   - Context API
-  - Redux
+  - Redux & RTK
   - [TanStack Query](https://tanstack.com/query/v3/)
-  - [Ahooks](https://ahooks.js.org/)
-- Tailwind CSS
-  - [Tailwind](https://tailwindcss.com/)
-- Material
-  - [MUI](https://mui.com/)
-- AntD
-  - [AntD](https://ant.design/)
-- NextJS (SSR, AMP)
-- React Native (Android)
-- Firebase (Connection)
+  - Zustand (Optional)
+  - Axios (API Integration)
+- [Tailwind](https://tailwindcss.com/)
+- [Shadcn](https://ui.shadcn.com/)
+- Authentication Strategies
+  - Web Security Knowledge
+    - CORS
+    - HTTPS
+    - Content Security Policy
+    - OWASP Security Risks
+- NextJS Introduction
+- Testing
+  - Playwright/ Vitest
+- Certifications
+  - [React Nano degree](https://www.udacity.com/course/react-nanodegree--nd019)
+  - [Meta Front-Ene](https://www.coursera.org/professional-certificates/meta-front-end-developer)
 
 ## Module 4: Back-End App Development
 
 |               |                       |
 | ------------- | --------------------- |
 | Prerequisites | Module 2              |
-| Duration      | 3 Months – 72 Hours   |
-| Quizzes       | 1. NodeJS + ExpressJS |
+| Duration      | 4 Months              |
+| Quizzes       | 1. NodeJS/ Express    |
 |               | 2. MongoDB            |
 |               | 3. PostgreSQL         |
 | Hackathon     | After completion      |
@@ -155,26 +175,49 @@
 
 - NodeJS
   - ExpressJS
+    - RESTful APIs
+    - Architecture
     - Basic Routes
     - Database Connection
     - CRUD
     - Authentication
     - Middleware
     - Protected Routes
-  - [File System module](https://nodejs.org/api/fs.html)
-  - NestJS
+    - JWT
+    - WebSocket
+    - Bcrypt
+    - Cloudinary
+    - Redis
+    - Node-cache
+    - Messaging Queue
+    - [File System module](https://nodejs.org/api/fs.html)
+- Socket IO
 - MongoDB
   - CRUD
   - Queries
-- JWT
-- WebSocket
-- Bcrypt
-- Cloudinary
-- GraphQL
 - PostgreSQL
   - CRUD
   - Queries
-- Sequelize
 - Payment Integration
   - Stripe
   - Paypal
+- Linux Basics
+- Deployment (Google Cloud)
+
+## Module 5: Mobile App Development
+
+|               |                       |
+| ------------- | --------------------- |
+| Prerequisites | Module 2              |
+| Duration      | 1 Month               |
+| Quizzes       | 1. React Native       |
+| Hackathon     | After completion      |
+
+### Topics
+
+- React Native
+  - CLI
+  - Expo
+- Build
+- App Publish
+- IOS & ANDROID
